@@ -1,0 +1,25 @@
+.hero {
+  background-image: url('/hero.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+.subtitle {
+  font-size: 1.5rem;
+  margin: 10px 0 30px;
+}
+.destinations {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.destination {
+  background: rgba(0,0,0,0.5);
+  padding: 8px 12px;
+  border-radius: 4px;
+}
